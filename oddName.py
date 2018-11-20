@@ -6,3 +6,5 @@ name = input("Name, please: ")
 
 while len(name)<=1:
     name = input("Name, please: ")
+
+print(name[::2])
